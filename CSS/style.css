@@ -1,0 +1,179 @@
+*{
+    margin: 5px;
+    margin-top: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+.context:hover{
+    opacity: 35%;
+    background-color: rgb(238, 236, 236);
+    border-radius: 6px;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 0px;
+
+}
+a{
+    text-decoration: none;
+    color: rgb(167, 96, 96);
+}
+P{
+    color: #555;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px; 
+}
+
+.col-2 h1{
+    font-family: serif;
+    font-size: 45px;
+    line-height: 60px;
+ 
+
+}
+.col-2 p{
+    font-family: 'satisfy' cursive;
+    font-weight: 300;
+}
+
+.col-2{
+    flex-basis: 50%;
+    min-width: px;
+   
+}
+.col-2 img{
+    width: 100%;
+    padding: 50px 0;
+}
+body{
+    background-image: url(/images/desk.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+.btn{
+    display: inline-block;
+    background: rgb(184, 28, 28);
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: #000000;
+}
+.row{
+    display: flow-root;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.hex{
+    padding-bottom: 3px;
+}
+.categories{
+    margin-top: 80px;
+
+}
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+    
+}
+.col-3 img{
+    width: 30%;
+    position: absolute;
+    top: 145%;
+    padding-bottom: 14px;
+
+
+}
+.col-4 img{
+    width: 32%;
+  position: absolute;
+    right: 34.2%;
+    top: 145%;
+    padding-bottom: 10px;
+}
+.col-5 img{
+    width: 31%;
+
+    position: absolute;
+    top: 145%;
+    right: 34px;
+    padding-bottom: 10px;
+}
+.small-container{
+
+padding-top: 230x;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+
+.apple:hover{
+    opacity: 30%;
+    transition: 1s;
+}
+.text{
+    padding-top: 1030px;
+}
+.product{
+    position: absolute;
+    top: 203%;
+}
+.apple{
+    position: absolute;
+    right: 76%;
+    top:213%
+}
+.apple img{
+    padding-bottom: 60px;
+}
+.bose{
+    position: absolute;
+    right: 56%;
+    top: 209%;
+
+}
+.headphone:hover{
+    opacity: 30%;
+    transition: 1s;
+
+}
+.vr{
+    position: absolute;
+    right: 29%;
+    top: 215%;
+}
+.bag{
+    position: absolute;
+    top: 217%;
+    right: 3%;
+}
+.headphone img{
+    padding-bottom: 20px;
+}
